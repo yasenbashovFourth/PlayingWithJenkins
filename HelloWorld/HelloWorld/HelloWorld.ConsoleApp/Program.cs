@@ -11,11 +11,14 @@ namespace HelloWorld.ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine(CreateMessage());
+            Console.WriteLine(CreateMessage("this is your message now"));
         }
 
         public static string CreateMessage()
         {
             return "Hello World!";
         }
+
+        public static string CreateMessage(string message) => message;
     }
 }
