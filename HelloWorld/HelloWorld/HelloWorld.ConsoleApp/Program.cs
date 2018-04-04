@@ -19,6 +19,9 @@ namespace HelloWorld.ConsoleApp
             return "Hello World!";
         }
 
-        public static string CreateMessage(string message) => message;
+        public static string CreateMessage(string message)
+        {
+            return message;
+        } 
     }
 }
