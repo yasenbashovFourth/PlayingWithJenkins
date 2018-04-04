@@ -8,11 +8,11 @@ namespace HelloWorld.ConsoleApp
 {
     public class Program
     {
-        //static void Main(string[] args)
-        //{
-        //    Console.WriteLine(CreateMessage());
-        //    Console.WriteLine(CreateMessage("this is your message now"));
-        //}
+        static void Main(string[] args)
+        {
+            Console.WriteLine(CreateMessage());
+            Console.WriteLine(CreateMessage("this is your message now"));
+        }
 
         public static string CreateMessage()
         {
