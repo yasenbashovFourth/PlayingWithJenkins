@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using HelloWorld.ConsoleApp;
+using HelloWorld;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace HelloWorld.Tests

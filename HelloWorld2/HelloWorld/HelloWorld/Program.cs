@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld.ConsoleApp
+namespace HelloWorld
 {
     public class Program
     {
@@ -22,6 +22,6 @@ namespace HelloWorld.ConsoleApp
         public static string CreateMessage(string message)
         {
             return message;
-        } 
+        }
     }
 }
